@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralição de Div</title>
+    <style>
+        div#fora{
+            position: relative;
+            height: 96vh;
+            background-color: purple;
+            background-image: url(imagens\ de\ fundos/target001.png);
+            background-size: 100% 100%;
+
+        }
+        div#dentro{
+            background-image: url(imagens\ de\ fundos/target001.png);
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            width: 300px;
+            background-color: yellow;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="fora">
+        <div id="dentro">
+
+        </div>
+    </div>
+</body>
+</html>
