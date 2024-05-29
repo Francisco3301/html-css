@@ -31,7 +31,7 @@ header a, footer a {
     color: white;
     font-weight: bolder;
 } 
-header a:hover, footer a:hover{
+header a:hover{
     text-decoration:underline ;
 }
 
@@ -62,4 +62,8 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
