@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formurário</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            text-align: center;
+        }
+        form{
+            margin: auto;
+            text-align: center;
+            background-color: lightgray;
+            width: 300px;
+            padding: 1px 10px 1px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de formurário</h1>
+    <form action="tela.php" method="post">
+        <p>
+            <label for="isu">Usuário</label>
+            <input type="text" name="Usuário" id="isu" required maxlength="30" minlength="1" placeholder="Nome" autocomplete="username">
+        </p>
+        <p>
+            <label for="isenha">Senha</label>
+            <input type="password" name="senha" id="isenha" required maxlength="30" minlength="6" placeholder="Senha" autocomplete="off">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
