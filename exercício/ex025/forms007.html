@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms007</title>
+</head>
+<body>
+    <h1>Select, datalist e textarea</h1>
+
+    <form action="tela.php" method="post">
+
+        <p>
+            <label for="iest">Estados:</label>
+            <select name="estados" id="iest">
+                <option value="rj">Rio de Janeiro</option>
+                <option value="ce">Ceará</option>
+                <option value="rr">Roráima</option>
+                <option value="outros">Outros...</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissões</label>
+            <input type="text" name="profissão" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option>Desenvolvedor</option>
+                <option>Médico</option>
+                <option>Professor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Sua opnião</label> <br>
+            <textarea name="msg" id="ismg" rows="30" cols="30" placeholder="Escreva sua opnião aqui!"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
