@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Teste de media query</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Reides</a></li>
+                <li><a href="#">Links</a></li>
+                <li><a href="#">Outros</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Frases de Alvo Dumbledore</h2>
+            <p>"Mas como sabem pode-se encontrar a felicidade mesmo nas horas mais sombrias, se a pessoa se lembrar de acender a luz."</p>
+            <p>"Palavras são, na minha nada humilde opinião, nossa inesgotável fonte de magia. Capazes de formar grandes sofrimentos e também de remediá-los".</p>
+
+            <div id="foto"><img src="https://tse4.mm.bing.net/th?id=OIP.SOFoa7N1Ca7YdqibcUKnWAHaE8&pid=Api&P=0&h=180" alt="Dumbledore"></div>
+
+            
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+        if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+        } else {
+            itens.style.display = 'block'
+        }
+}
+    </script>
+    
+</body>
+</html>
